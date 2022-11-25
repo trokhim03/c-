@@ -1,0 +1,20 @@
+#include <iostream>
+#include<math.h>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d;
+    cin>>a;
+    cin>>b;
+    
+    c=a/a;
+    d=a/b;
+    if(c==d){
+     cout<<"Результати рівні  (на 0.000001 epsilon)";
+    }
+    else{
+     cout<<"Результати не рівні  (на 0.000001 epsilon)";
+    }
+}
